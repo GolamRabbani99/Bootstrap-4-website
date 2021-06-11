@@ -1,0 +1,195 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* nav */
+
+#title{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    background-color:#ff4c68;
+
+}
+
+.container{
+    
+    padding-bottom:7%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    
+    color: #fff;
+}
+
+
+.heroImg{
+    width:60%;
+    transform: rotate(25deg);
+    position: absolute;
+    left:20%;
+    
+}
+
+.navbar{
+   
+    margin-bottom: 3rem;
+}
+
+.hero-text{
+    padding:2rem 1rem;
+}
+
+.hero-text h1{
+    color:#fff;
+    line-height: 2;
+    font-size: 3.2rem;
+    font-weight: 900;
+    font-family:"Monserrat-Bold"
+}  
+
+
+.fa-play{
+    margin-right: .5rem;
+}
+
+
+.btn-outline1{
+    border-width:0;
+    border-radius: 50px;
+    padding:.435rem 1rem;
+    background-color: black;
+    color:#fff;
+
+}
+
+.btn-outline2{
+    
+    border-radius: 50px;
+    padding:.435rem 1rem;
+    
+    color:#fff;
+
+}
+.btn-outline1:hover{
+    opacity: .5;
+}
+
+.btn-outline2:hover{
+    background-color: black;
+}
+/* features */
+
+#features{
+    padding:8rem 0;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.f-heading{
+    
+    line-height: 1.5;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+/* 
+testimonials */
+
+#testimonials{
+    background-color: #f76a7f;
+    text-align: center;
+    padding:3rem 0;
+}
+.testImg{
+    width:10%;
+    border-radius: 100%;
+}
+
+.icon{
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    color: #ff4c68;
+}
+/* press */
+
+#press{
+    background-color: #f76a7f;
+    text-align: center;
+    padding:3rem 0;
+}
+
+.pimg{
+    width:10%;
+    margin: 1.5rem;
+}
+
+/* pricing */
+
+
+#pricing{
+    text-align: center;
+    padding:4rem 0;
+}
+#pricing h2{
+    margin-bottom: .7rem;
+}
+
+.price-container{
+    
+    margin-top: 3.5rem;
+}
+
+#cta{
+     text-align: center;
+    background-color: #ff1337; 
+    min-height:350px;
+   
+    
+}
+
+.text-cta{
+    margin:7rem auto;
+    color:#fff;
+}
+
+h3{
+    margin-bottom: 3rem;
+     font-weight: 900;
+    font-size: 2.5rem;
+    font-family: "Monserrat-Black";
+    line-height: 1.3;
+}
+
+
+
+#footer{
+    text-align: center;
+    padding-top:5rem;
+}
+
+.social-icon i{
+    margin-right:.7rem;
+    margin-bottom: .5rem;
+}
+/* media query */
+
+@media only screen and (max-width: 769px) {
+.heroImg{
+position: static;
+transform: rotate(0);
+}
+
+#title{
+    text-align: center;
+}
+
+.hero-text{
+    padding:1rem 1rem;
+}
+}
